@@ -21,15 +21,15 @@ module.exports = {
     hardhat: {
     },
     rinkeby: {
-      url: "https://rinkeby.infura.io/v3/b9de070195cb4c898b9fa784730e069d",
+      url: "",
       accounts: [priv_key]
     },
-    goerli: {0x6422Bf82Ab27F121a043d6DE88b55FA39e2ea292
-      url: "https://goerli.infura.io/v3/b9de070195cb4c898b9fa784730e069d",
+    goerli: {
+      url: "",
       accounts: [priv_key]
     },
     mainnet: {
-      url: "https://mainnet.infura.io/v3/b9de070195cb4c898b9fa784730e069d",
+      url: "",
       accounts: [priv_key]
     },    
   },  
