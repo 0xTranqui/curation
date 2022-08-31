@@ -24,7 +24,7 @@ module.exports = {
       url: "https://rinkeby.infura.io/v3/b9de070195cb4c898b9fa784730e069d",
       accounts: [priv_key]
     },
-    goerli: {
+    goerli: {0x6422Bf82Ab27F121a043d6DE88b55FA39e2ea292
       url: "https://goerli.infura.io/v3/b9de070195cb4c898b9fa784730e069d",
       accounts: [priv_key]
     },
@@ -34,6 +34,6 @@ module.exports = {
     },    
   },  
   etherscan: {
-    apiKey: "E1P1ICRFRNE694JDKUQ54MVRK6X5H1R4V4"
+    apiKey: ""
   }
 };
