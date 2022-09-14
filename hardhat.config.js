@@ -4,7 +4,8 @@ require('dotenv').config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 
-const infura_key = process.env.INFURA_KEY
+const goerli_rpc_url = "https://rpc.ankr.com/eth_goerli"
+const etherscan_key = process.env.ETHERSCAN_KEY
 const priv_key = process.env.PRIVATE_KEY
 
 module.exports = {
@@ -20,20 +21,12 @@ module.exports = {
   networks: {
     hardhat: {
     },
-    rinkeby: {
-      url: "",
-      accounts: [priv_key]
-    },
     goerli: {
-      url: "",
-      accounts: [priv_key]
-    },
-    mainnet: {
-      url: "",
+      url: goerli_rpc_url,
       accounts: [priv_key]
     },    
   },  
   etherscan: {
-    apiKey: ""
+    apiKey: etherscan_key
   }
 };
